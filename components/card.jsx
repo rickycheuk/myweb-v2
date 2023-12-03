@@ -16,7 +16,7 @@ const Card = ({ frontComponent, backComponent }) => {
       }, 500);
 
       return () => clearTimeout(flipToFalseTimeout);
-    }, 100);
+    }, 500);
 
     return () => clearTimeout(flipToTrueTimeout);
   }, []);
