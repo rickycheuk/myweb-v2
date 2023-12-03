@@ -32,13 +32,13 @@ const Card = ({ frontComponent, backComponent }) => {
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
           <div onClick={flipCard}>
             <div className="rounded-[36px] w-full h-full cursor-pointer" key="front">
-              {cardFaces.front}
+              {frontComponent}
             </div>
           </div>
 
           <div onClick={flipCard}>
             <div className="rounded-[36px] w-full h-full cursor-pointer" key="back">
-              {cardFaces.back}
+              {backComponent}
             </div>
           </div>
         </ReactCardFlip>
