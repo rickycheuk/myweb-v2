@@ -16,6 +16,7 @@
     "next": "14.0.3",
     "react": "^18",
     "react-card-flip": "^1.2.2",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18",
     "vanilla-tilt": "^1.8.1"
   },
