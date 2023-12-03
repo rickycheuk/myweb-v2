@@ -1,1 +1,1 @@
-## Ricky Cheuk
+![Alt text](app/opengraph-image.png)
