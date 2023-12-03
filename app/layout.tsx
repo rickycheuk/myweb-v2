@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  metadataBase: new URL("https://rickycheuk.com"),
+  // metadataBase: new URL("https://rickycheuk.com"),
   icons: "/logo.webp",
 }
 
