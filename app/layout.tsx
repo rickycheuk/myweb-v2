@@ -13,24 +13,6 @@ export const metadata: Metadata = {
   title: 'Ricky Cheuk',
   description: 'Ricky Cheuk, Software Engineer',
   keywords: ["Ricky", "Ricky Cheuk", "Software Engineer"],
-  twitter: {
-    card: "summary_large_image",
-    title: "Ricky Cheuk",
-    description: "Ricky Cheuk, Software Engineer",
-    creator: "@rickykccheuk",
-  },
-  openGraph: {
-    type: "website",
-    url: "https://rickycheuk.com",
-    title: "Ricky Cheuk",
-    description: "Ricky Cheuk, Software Engineer",
-    images: [
-      {
-        url: "https://rickycheuk.com/api/og",
-        alt: "Ricky Cheuk",
-      },
-    ],
-  },
   metadataBase: new URL("https://rickycheuk.com"),
   icons: "/logo.webp",
 }
